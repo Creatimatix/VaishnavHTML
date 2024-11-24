@@ -1719,9 +1719,11 @@ span.contact-no {
 @media screen and (min-width: 1024px) {
     .mobile_view,.bannerMobileImg{
         display: none;
+        text-align:right;
     }
     .desktop_view, .bannerDestopImg{
         display: block;
+        text-align:right;
     }
     .how_it_work {
         font-size: 27px;
@@ -1744,6 +1746,7 @@ span.contact-no {
   and (max-device-width: 1024px) {
     .desktop_view,.bannerDestopImg{
         display: none;
+        text-align:right;
     }
     .mobile_view,.bannerMobileImg{
         display: block;
